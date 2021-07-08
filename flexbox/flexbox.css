@@ -1,0 +1,47 @@
+@media all  and (min-width : 700px) and (max-width : 1000px)  {
+	/*body{
+		background-color: lightpink;
+	}*/
+
+	header{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.blocPrincipaleProduits1{
+		flex-wrap: wrap;
+		/*flex-direction: column;*/
+		margin: 35px;
+	}
+	.conteneurImageproduits1{
+		margin: 25px;
+		height: auto;
+	}
+
+	.blocFooter{
+		font-size: 2.1em;
+		height: 80px;
+	}
+	.textFooter{
+		font-size: 2em;
+	}
+	#texteNosProduits{
+		font-size: 2.7em;
+	}
+	.texteHeader{
+		font-size: 1.7em;
+	}
+	.menuDeNavigationHeader{
+		font-size: 2em;
+	}
+	.descriptionProduits{
+		font-size: 2.1em;
+	}
+	.boutonAcheter{
+		font-size: 2.4em;
+	}
+	.textPrix{
+		font-size: 2.4em;
+	}
+	
+}
